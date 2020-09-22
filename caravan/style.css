@@ -200,3 +200,55 @@ footer{
 .footer-text{
 	color: #fff;
 }
+
+@media screen and (max-width: 425px){
+	header, .main-visual, .blog, .sidebar, main, footer{
+		width: 100%;
+	}
+	.social{
+		position: static;
+		margin-top: 20px;
+	}
+	.social i{
+		margin: 0 10px;
+	}
+	.blog, .sidebar{
+		float: none;
+	}
+	.blog{
+		margin-bottom: 50px;
+	}
+	.blog-image{
+		width: 50%;
+	}
+	.blog-text{
+		padding-left: 10px;
+	}
+	.blog-text-headline{
+		font-size: 15px;
+	}
+	.pagination{
+		margin-top: 20px;
+	}
+	.popular-text, .categories-text{
+		text-align: center;
+	}
+	.sidebar-contents{
+		padding-left: 15px;
+	}
+	.instagram-box:nth-child(odd){
+		margin: 10px;
+	}
+	.instagram-box:nth-child(even){
+		margin: 10px;
+	}
+}
+@media screen and (max-width: 400px){
+	.blog-image, .blog-text{
+		float: none;
+		text-align: center;
+	}
+	.blog-image{
+		width: 100%;
+	}
+}
