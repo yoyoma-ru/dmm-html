@@ -13,9 +13,13 @@ a{
 	display: block;
 	clear: both;
 }
+header, nav, h2, .main-visual, footer{
+	font-family: Chalkduster, "Brandley Hand", Courier, "Segoe Print", sans-selif;
+}
 
 
 header{
+	position: relative;
 	width: 90%;
 	padding: 0 15px;
 	margin: 15px auto;
@@ -24,6 +28,15 @@ header{
 }
 header .headline{
 	font-size: 32px;
+}
+.social{
+	position: absolute;
+	top: 22px;
+	right: 22px;
+}
+.social i{
+	margin-left: 20px;
+	display: inline-block;
 }
 .nav-list{
 	padding: 10px 0;
